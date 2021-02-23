@@ -9,7 +9,7 @@ const Article = mongoose.model("Article", {
     type: String,
     required: true,
   },
-  photoUrl: {
+  imageUrl: {
     type: String,
     required: true,
   },
