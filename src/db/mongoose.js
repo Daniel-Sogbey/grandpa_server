@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
-const url = "mongodb://localhost:27017/grandpaDB";
+const url =
+  "mongodb+srv://DanielSogbey:daniel006@cluster0.c7hn7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const options = {
   useCreateIndex: true,
